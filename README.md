@@ -14,7 +14,7 @@ For any custom configurations, just create a configuration file (`.remarkrc` or
 `.remarkignore`) in the root folder of the markdown files (see <https://github.com/unifiedjs/unified-engine/blob/master/doc/configure.md>).
 
 The `watch` tag provides an implementation with a file system watcher, so any
-time that some Markdown file is edited, it will automatically restart the
+time that some markdown file is edited, it will automatically restart the
 linter. Just like the linter, the file system watcher supports custom
 configurations with a file (`nodemon.json`) in the root folder (see <https://github.com/remy/nodemon#config-files>).
 
@@ -45,7 +45,6 @@ remark-frontmatter
     ]
   ]
 }
-
 ```
 
 ## Acknowledgment

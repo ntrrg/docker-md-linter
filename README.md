@@ -1,4 +1,4 @@
-[![Docker Build Status](https://img.shields.io/docker/build/ntrrg/md-linter.svg)](https://hub.docker.com/r/ntrrg/md-linter/)
+[![Docker Build Status](https://img.shields.io/docker/build/ntrrg/md-linter.svg)](https://store.docker.com/community/images/ntrrg/md-linter/)
 
 * `latest` [Dockerfile](latest/Dockerfile) [![](https://images.microbadger.com/badges/image/ntrrg/md-linter.svg)](https://microbadger.com/images/ntrrg/md-linter "Get your own image badge on microbadger.com")
 
@@ -28,7 +28,7 @@ plugins per line.
 
 `.remarkplugins`:
 
-```
+```text
 remark-frontmatter
 ```
 

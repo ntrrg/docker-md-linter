@@ -1,0 +1,30 @@
+{
+  "name": "md-linter",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ntrrg/docker-md-linter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntrrg/docker-md-linter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntrrg/docker-md-linter/issues"
+  },
+  "scripts": {
+    "start": "remark files/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "remark-cli": "^5.0.0",
+    "remark-lint": "^6.0.1",
+    "remark-preset-lint-recommended": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "os": [
+    "linux"
+  ]
+}

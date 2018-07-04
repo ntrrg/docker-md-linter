@@ -18,6 +18,36 @@ time that some Markdown file is edited, it will automatically restart the
 linter. Just like the linter, the file system watcher supports custom
 configurations with a file (`nodemon.json`) in the root folder (see <https://github.com/remy/nodemon#config-files>).
 
+```sh
+docker run --rm -itv /path/to/my/md-files:/files ntrrg/md-linter:watch
+```
+
+The file `.remarkplugis` in the root folder allows the installation of plugins,
+useful for some special cases, like frontmatter support. This must be a list of
+plugins per line.
+
+`.remarkplugins`:
+
+```
+remark-frontmatter
+```
+
+`.remarkrc`:
+
+```json
+{
+  "plugins": [
+    "remark-preset-lint-recommended",
+    "remark-frontmatter",
+    [
+      "remark-lint-list-item-indent",
+      "space"
+    ]
+  ]
+}
+
+```
+
 ## Acknowledgment
 
 Working on this project I use/used:

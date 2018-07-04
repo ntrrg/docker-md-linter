@@ -1,5 +1,8 @@
 [![Docker Build Status](https://img.shields.io/docker/build/ntrrg/md-linter.svg)](https://hub.docker.com/r/ntrrg/md-linter/)
-[![](https://images.microbadger.com/badges/image/ntrrg/md-linter.svg)](https://microbadger.com/images/ntrrg/md-linter "Get your own image badge on microbadger.com")
+
+* `latest` [Dockerfile](latest/Dockerfile) [![](https://images.microbadger.com/badges/image/ntrrg/md-linter.svg)](https://microbadger.com/images/ntrrg/md-linter "Get your own image badge on microbadger.com")
+
+* `watch` [Dockerfile](watch/Dockerfile) [![](https://images.microbadger.com/badges/image/ntrrg/md-linter:watch.svg)](https://microbadger.com/images/ntrrg/md-linter:watch "Get your own image badge on microbadger.com")
 
 ## Usage
 

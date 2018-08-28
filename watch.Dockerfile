@@ -1,7 +1,7 @@
 FROM node:10.9.0-alpine
-COPY ctx/package-watch.json /package.json
+COPY watch/package.json /
 RUN npm install && npm cache clean --force
-ENV CONFIG_FILES="$CONFIG_FILES nodemon.json"
+ENV CONFIG_FILES=".remarkignore .remarkrc nodemon.json"
 VOLUME /files
-COPY ctx/common/ /
+COPY common/ /
 ENTRYPOINT ["/entrypoint.sh"]

@@ -1,8 +1,7 @@
 FROM node:10.5.0-alpine
-COPY package.json /
+COPY ctx/package.json /
 RUN npm install && npm cache clean --force
 ENV CONFIG_FILES=".remarkignore .remarkrc"
-COPY . /
 VOLUME /files
+COPY ctx/common/ /
 ENTRYPOINT ["/entrypoint.sh"]
-
